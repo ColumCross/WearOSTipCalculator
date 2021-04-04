@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="calculate_tip_button">Calculate Tip &amp; Total</string>
+
+    <string name="totals_line_front">Tip: $</string>
+    <string name="totals_line_middle">. Total: $</string>
+
+    <string name="empty"> </string>
+
+    <string name="base_tip">20</string>
+
+    <string name="error_message">Must enter both a total and a tip percentage.</string>
+
+</resources>
