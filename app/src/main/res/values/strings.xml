@@ -12,6 +12,7 @@
 
     <string name="empty"> </string>
 
+    <string name="price_hint">Cost</string>
     <string name="base_tip">20</string>
 
     <string name="error_message">Must enter both a total and a tip percentage.</string>

@@ -29,13 +29,19 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:textSize="16sp" />
+
                     <EditText
                         android:id="@+id/editTextTotal"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".5"
                         android:ems="10"
-                        android:hint="Total Cost"
+                        android:hint="@string/price_hint"
                         android:inputType="numberDecimal" />
 
                     <EditText
@@ -47,6 +53,12 @@
                         android:hint="Tip %"
                         android:inputType="number"
                         android:text="@string/base_tip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%"
+                        android:textSize="16sp" />
 
                 </LinearLayout>
 
